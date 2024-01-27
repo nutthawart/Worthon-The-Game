@@ -18,7 +18,6 @@ root.resizable(False, False)
 
 # เก็บคำที่ต้องเดาไว้ในตัวแปร
 word = random.choice(open("words.txt").read().split())
-print(word)
 
 root.config(bg=BACKGROUND)
 
